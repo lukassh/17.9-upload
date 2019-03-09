@@ -1,18 +1,30 @@
 {
-  "name": "17.9Upload",
+  "name": "17.8",
   "version": "1.0.0",
-  "description": "server node upload",
+  "description": "npm learning",
   "main": "index.js",
-  "dependencies": {
-    "formidable": "^1.2.1",
-    "colors": "^1.3.3"
-  },
-  "devDependencies": {},
   "scripts": {
- "start": "nodemon index.js"   
- "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "nauka",
+    "npm",
+    "node"
+  ],
+  "author": "Lukasz",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "formidable": "^1.2.1",
+    "stat-mode": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukassh/17.8Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukassh/17.8Server/issues"
+  },
+  "homepage": "https://github.com/lukassh/17.8Server#readme"
 }
